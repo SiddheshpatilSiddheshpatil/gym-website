@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- for the icon of login  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=login" />
+    <!-- end of icon -->
+<!-- fonts -->
+   /* <!-- Google Fonts --> */
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <!-- fonts -->
+   <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .hero {
+            background: #000;
+            color: white;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container justify-content-center">
+            <a class="navbar-brand me-4" href="#">MUSCLE MUNCH</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipment">Equipment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
+                    <li class="nav-item" id="login"><a class="nav-link  material-symbols-outlined"
+                            href="login.html"><span class="material-symbols-outlined">
+                                login
+                            </span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO / INFO -->
+    <section id="info" class="hero">
+        <div class="container">
+            <section id="info" class="py-5">
+                <div class=" text-center ">
+                    <h2 class="mb-4 " id="info_hero">About Muscle Munch Gym</h2>
+                    <p>
+                        Muscle Munch Gym is a modern fitness center designed to help you achieve your health
+                        and fitness goals in the most effective and motivating way. We provide a supportive
+                        and energetic environment where beginners and advanced athletes can train with confidence.
+                    </p>
+
+                    <p>
+                        Our gym is equipped with advanced and well-maintained fitness equipment, including
+                        strength machines, free weights, and the latest cardio machines such as treadmills,
+                        cross trainers, and stationary bikes. The wide and spacious workout area ensures comfort
+                        and a stress-free training experience.
+                    </p>
+
+                    <p>
+                        At Muscle Munch Gym, we focus on personalized training programs. Our certified trainers
+                        design customized workout plans based on your body type, fitness level, and goals —
+                        whether it’s weight loss, muscle building, strength training, or overall fitness.
+                    </p>
+
+                    <p>
+                        We also provide professional diet and nutrition plans to support your fitness journey.
+                        Our friendly trainers and supportive environment help you stay motivated and consistent
+                        on your path to a healthier lifestyle.
+                    </p>
+
+                    <div class="row mt-4">
+                        <div class="col-md-4" >
+                            <h5 id="equip">✔ Advanced Equipment</h5>
+                        </div>
+                        <div class="col-md-4" >
+                            <h5 id="train">✔ Personalized Training</h5>
+                        </div>
+                        <div class="col-md-4" >
+                            <h5 id="diet">✔ Diet & Nutrition Plans</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- EQUIPMENT -->
+    <section id="equipment" class="bg-light">
+        <div class="container text-center">
+            <h2>Equipment</h2>
+            <p>Modern machines, free weights, cardio equipment.</p>
+            <div class="row">
+
+                <!-- Strength -->
+                <div class="card" style="width: 18rem;">
+                    <img src="stenght.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Strength </h5>
+                        <p class="card-text"> Muscle Munch Gym offers advanced strength training machines for all muscle
+                            groups.
+                            Our equipment helps in muscle building, toning, and improving overall strength.
+                            Trainers guide you for safe and effective workouts using modern machines.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!-- Weight Machines -->
+                <div class="card" style="width: 18rem;">
+                    <img src="weight.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Weight Training Zone</h5>
+                        <p class="card-text"> Step into our PowerForge Weight Training Zone, designed for serious
+                            strength building
+                            and body transformation. Equipped with heavy-duty free weights, barbells, and plates,
+                            this area helps you build muscle, boost endurance, and increase overall power.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!-- Cardio -->
+
+                <div class="card" style="width: 18rem;">
+                    <img src="cardio.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Cardio Blast Zone</h5>
+                        <p class="card-text"> Boost your stamina and burn calories in our Cardio Blast Zone, equipped
+                            with the
+                            latest treadmills, cross trainers, stationary bikes, and rowing machines. This
+                            section is designed to improve heart health, increase endurance, and support
+                            effective fat loss.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!-- end of equipment cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINERS -->
+    <section id="trainers">
+        <div class="container text-center">
+            <h2>Trainers</h2>
+            <p>Certified & Experienced Trainers</p>
+            <div class="row">
+                <!-- sitaram sir card -->
+                <div class="card" style="width: 18rem;">
+                    <img src="trainer_strength.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NAME : Sitaram Sir.</p>
+                        <p class="card-text">SPETILIZATION : Strength Trainer</p>
+                        <p class="card-text">EXPERIENCE : 5 years</p>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- rohit sir card -->
+
+                <div class="card" style="width: 18rem;">
+                    <img src="trainer_weight.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NAME : Rohit Sir.</p>
+                        <p class="card-text">SPETILIZATION : Fitness Trainer</p>
+                        <p class="card-text">EXPERIENCE : 7 years</p>
+                    </div>
+                </div>
+
+                <!-- riya mam -->
+                <div class="card" style="width: 18rem;">
+                    <img src="trainer_cardio.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NAME : Riya Mam.</p>
+                        <p class="card-text">SPETILIZATION : Cardio Expert</p>
+                        <p class="card-text">EXPERIENCE : 5 years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANS -->
+    <section id="plans" class="bg-light">
+        <div class="container text-center">
+            <h2>Subscription Plans</h2>
+            <div class="row">
+                <!-- 1 month plan -->
+                <div class="card Membership" style="width: 18rem;">
+                    <img src="1month.png" class="card-img-top" alt="1 Month Gym Membership">
+                    <div class="card-body">
+                        <h5 class="card-title">₹1000</h5>
+                        <p class="card-text">
+                            Perfect for beginners who want to start their fitness journey with full access to our gym
+                            facilities.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">✔ Full gym access</li>
+                        <li class="list-group-item">✔ Cardio & strength training</li>
+                        <li class="list-group-item">✔ Trainer guidance</li>
+                    </ul>
+
+                    <div class="card-body text-center">
+                        <a href="./contact.html" class="btn btn-primary">Join Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Know More</a>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- 3 month plan -->
+                <div class="card Membership" style="width: 18rem;">
+                    <img src="3month.png" class="card-img-top" alt="3 Months Gym Membership">
+                    <div class="card-body">
+                        <h5 class="card-title"> ₹2500</h5>
+                        <p class="card-text">
+                            Ideal for consistent training with better results and extended access to all gym facilities.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">✔ Full gym access</li>
+                        <li class="list-group-item">✔ Cardio & strength training</li>
+                        <li class="list-group-item">✔ Personal trainer support</li>
+                    </ul>
+
+                    <div class="card-body text-center">
+                        <a href="./contact.html" class="btn btn-primary">Join Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Know More</a>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- 12 months plan -->
+                <div class="card Membership" style="width: 18rem;">
+                    <img src="12month.png" class="card-img-top" alt="12 Months Gym Membership">
+                    <div class="card-body">
+                        <h5 class="card-title"> ₹15000</h5>
+                        <p class="card-text">
+                            Best value plan for long-term fitness goals with complete access to all gym facilities and
+                            expert guidance.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">✔ Unlimited gym access</li>
+                        <li class="list-group-item">✔ Cardio & strength training</li>
+                        <li class="list-group-item">✔ Personalized workout plan</li>
+                        <li class="list-group-item">✔ Diet & fitness guidance</li>
+                        <li class="list-group-item">🎁 2 Months Free</li>
+                    </ul>
+
+                    <div class="card-body text-center">
+                        <a href="./contact.html" class="btn btn-primary">Join Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Know More</a>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-3">
+        © 2026 MUSCLE MUNCH
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

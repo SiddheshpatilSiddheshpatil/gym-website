@@ -1,0 +1,81 @@
+.bg-light{
+    /* background-color: #f8f9fa !important; */
+    padding: 2rem;
+}
+
+.card{
+    border: 2px solid #ffffff;
+    
+    padding: 2rem;
+      margin: 3rem;
+    transition: 0.9s ease;
+}
+.nav-item{
+    margin: 2rem;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#login{
+    margin-left: 20rem;
+    font-size: medium;
+  
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.btn-primary{
+    margin-bottom: 1rem;
+}
+
+     
+
+
+    /* Body text font */
+ body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    /* Headings font for titles and section headers */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+
+    /* Navbar brand */
+    .navbar-brand {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    /* Buttons */
+    .btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
+    /* Optional: Card titles */
+    .card-title {
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 1px;
+    }
+   #info_hero {
+       color: #ffffff;
+    }
+    #equip, #train, #diet {
+        color: #ffffff;
+    }
+
+.Membership>img{
+    border-radius: 50%;
+}
+   
